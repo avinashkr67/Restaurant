@@ -1,0 +1,660 @@
+$white: #ffffff;
+$black: #000000;
+$primary1: #ffbe33;
+$primary2: #222831;
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@mixin main-font {
+    font-family: "Open Sans", sans-serif;
+}
+
+@mixin primary-font {
+    font-family: "Dancing Script", cursive;
+}
+
+@mixin custom-width {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@mixin custom-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@mixin custom-anchor($font-size) {
+    text-decoration: none;
+    color: $white;
+    font-size: $font-size;
+}
+
+@mixin custom-button {
+    background-color: $primary1;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 12px 30px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    @include main-font;
+}
+
+html {
+    font-size: 25px;
+}
+
+// header starts
+
+.custom-container {
+    color: $white;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    background-image: url("../img/bg1.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+
+    .inner {
+        @include custom-width();
+
+        // nav starts
+
+        nav {
+            @include custom-flex();
+            width: 100%;
+            padding-top: 0.5rem;
+
+            .nav-left {
+                a {
+                    @include primary-font();
+                    @include custom-anchor(1.5rem);
+                }
+            }
+
+            .nav-right {
+                display: block;
+                ul {
+                    display: flex;
+                    list-style: none;
+                    padding-top: 0.5rem;
+
+                    li {
+                        padding-left: 1.2rem;
+
+                        a {
+                            @include custom-anchor(0.7rem);
+                            @include main-font();
+                            letter-spacing: 0.05rem;
+                        }
+
+                        a:hover {
+                            color: $primary1;
+                            box-shadow: 1px 2px 3px $primary1;
+                            padding: 0rem;
+                            padding-bottom: 0.05rem;
+                            border-radius: 30%;
+                        }
+                    }
+                }
+            }
+
+            .menu-bar {
+                margin-top: 0.4rem;
+                display: none;
+                font-size: 1rem;
+                cursor: pointer;
+                padding-right: 0.5rem;
+            }
+        }
+
+        // nav ends
+
+        // carousel starts
+
+        .carousel {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+
+            .item {
+                text-align: center;
+                padding: 0 5rem;
+
+                h3 {
+                    font-size: 3rem;
+                    @include primary-font();
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                    line-height: 1.7rem;
+                    word-spacing: 0.2rem;
+                    margin-bottom: 2rem;
+                }
+
+                .custom-button {
+                    @include custom-button;
+
+                    a {
+                        text-decoration: none;
+                        color: $white;
+                        @include main-font();
+                        font-size: 0.8rem;
+                    }
+                }
+
+                .custom-button:hover {
+                    box-shadow: 0px 0px 31px 0px #af7800;
+                    background-color: #ffb619;
+                }
+            }
+        }
+
+        // carousel ends
+
+        .scrollup {
+            font-size: 1.5rem;
+            color: $primary1;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            text-align: center;
+            padding: 10px;
+            z-index: 100;
+            cursor: pointer;
+            display: none;
+        }
+    }
+}
+
+// header ends
+
+// second-section starts
+
+.second-section {
+    @include custom-width();
+    @include custom-flex();
+    margin: 3rem auto;
+
+    .s-left {
+        width: 48%;
+        background-color: $primary2;
+        color: $white;
+        padding-bottom: 0.6rem;
+    }
+
+    .s-right {
+        width: 48%;
+        background-color: $primary2;
+        color: $white;
+        padding-bottom: 0.6rem;
+    }
+
+    .custom-row {
+        @include custom-flex();
+
+        .custom-imgbox {
+            overflow: hidden;
+            width: 30%;
+            padding: 0;
+            margin: 1rem 0 0.5rem 1.5rem;
+            border-radius: 100%;
+            border: 4px solid $primary1;
+
+            img {
+                width: 100%;
+                transition: 0.4s all ease-in-out;
+            }
+
+            img:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .custom-textbox {
+            width: 60%;
+            padding-left: 1rem;
+            padding-top: 0.8rem;
+
+            h4 {
+                @include primary-font();
+                font-size: 1.7rem;
+            }
+
+            p {
+                @include primary-font();
+                font-size: 0.8rem;
+                margin-top: 0.4rem;
+
+                span {
+                    @include main-font();
+                    margin-right: 0.2rem;
+                    font-size: 1rem;
+                }
+            }
+
+            .custom-button {
+                @include custom-button();
+                padding: 8px 25px;
+                margin-top: 1rem;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+
+            .custom-button:hover {
+                background-color: #ffb619;
+            }
+        }
+    }
+}
+
+// second-section ends
+
+// third-section starts
+
+.third-section {
+    @include custom-width();
+    margin: 3rem auto;
+
+    h4 {
+        font-size: 2rem;
+        @include primary-font();
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: bolder;
+    }
+
+    .main-box {
+        @include custom-flex();
+        width: 100%;
+        overflow: hidden;
+
+        .box {
+            width: 30%;
+            background-color: $primary2;
+            color: #fff;
+            margin-bottom: 2rem;
+            text-align: justify;
+
+            .t-img {
+                width: 100%;
+                height: 32vh;
+                background-color: rgba(211, 211, 211, 0.952);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-bottom-left-radius: 60px;
+
+                img {
+                    width: 40%;
+                    transition: 0.4s all ease-in-out;
+                }
+
+                img:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            h5 {
+                font-size: 0.8rem;
+                margin-left: 1.5rem;
+                color: $primary1;
+                margin-top: 0.7rem;
+            }
+
+            p {
+                font-size: 0.56rem;
+                margin: 0.8rem;
+                margin-left: 1.5rem;
+                line-height: 1.1rem;
+            }
+
+            .tl-last {
+                @include custom-flex();
+                margin: 0 0.6rem 1rem 1.5rem;
+
+                span {
+                    font-size: 0.8rem;
+                }
+
+                button {
+                    border-radius: 100%;
+                    background-color: $primary1;
+                    padding: 0.45rem 0.5rem;
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 0.8rem;
+                    }
+                }
+
+                .custom-button:hover {
+                    background-color: #ffb619;
+                }
+            }
+        }
+    }
+
+    .custom-thirdbtn {
+        display: flex;
+        justify-content: center;
+        .third-section-btn {
+            @include custom-button();
+
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 0.8rem;
+            }
+        }
+
+        .third-section-btn:hover {
+            background-color: #ffb619;
+        }
+    }
+}
+
+// third-section ends
+
+// fourth-section starts
+
+.fourth-section {
+    background-color: $primary2;
+
+    .fr-section {
+        @include custom-width();
+        @include custom-flex();
+
+        .fs-left {
+            width: 30%;
+            margin-top: 2.5rem;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 80%;
+                padding-bottom: 1rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .fs-right {
+            width: 60%;
+            color: #fff;
+            margin-top: 5rem;
+
+            h5 {
+                font-size: 2rem;
+                @include primary-font();
+                margin-bottom: 1rem;
+            }
+
+            p {
+                font-size: 0.8rem;
+                line-height: 1.8rem;
+            }
+
+            .fourth-section-btn {
+                @include custom-button();
+                margin-top: 2rem;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 0.8rem;
+                }
+
+                .fourth-section-btn:hover {
+                    background-color: #ffb619;
+                }
+            }
+        }
+    }
+}
+
+// fourth section ends
+
+// booking section starts
+
+.booking-section {
+    @include custom-width();
+    margin: 2rem auto;
+
+    h3 {
+        @include primary-font();
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .booking-content {
+        @include custom-flex();
+
+        .b-left {
+            width: 48%;
+
+            input {
+                width: 90%;
+                height: 1.5rem;
+                border-radius: 10px;
+                margin-bottom: 0.9rem;
+                border: 1px solid grey;
+                padding: 0 0.5rem;
+            }
+
+            input[type="submit"] {
+                background-color: $primary1;
+                color: #fff;
+                border: none;
+                font-size: 0.8rem;
+                margin-top: 1rem;
+                width: 25%;
+                height: 2.1rem;
+                border-radius: 42px;
+                display: inline-block;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:active {
+                background-color: #da9500;
+            }
+
+            span {
+                color: red;
+                float: right;
+                margin-right: 0.5rem;
+            }
+        }
+
+        .b-right {
+            width: 48%;
+
+            iframe {
+                width: 100%;
+                height: 75%;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+// booking section ends
+
+// review-section starts
+
+.review-section {
+    @include custom-width();
+    margin-bottom: 2rem;
+
+    h3 {
+        @include primary-font();
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .rs-content {
+        .rs-box {
+            width: 100%;
+
+            .rs-imgbox {
+                display: flex;
+                justify-content: space-around;
+
+                img {
+                    width: 70%;
+                    border-radius: 100%;
+                    border: 5px solid $primary1;
+                }
+            }
+
+            .rs-box-content {
+                margin-top: 0.8rem;
+
+                p {
+                    font-size: 0.6rem;
+                    text-align: justify;
+                    margin-bottom: 1rem;
+                    line-height: 1.1rem;
+                }
+
+                h5 {
+                    font-weight: 800;
+                }
+
+                h6 {
+                    font-size: 0.5rem;
+                }
+            }
+        }
+
+        .owl-nav{
+            font-size: 1.5rem;
+        }
+    }
+   
+    .rs-button {
+        display: flex;
+        justify-content: center;
+
+        .review-section-btn {
+            @include custom-button();
+            margin-top: 2rem;
+            transition: 0.5s all ease-in-out;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 0.8rem;
+            }
+
+            i {
+                color: #fff;
+                font-size: 0.8rem;
+                padding-left: 0.2rem;
+                display: none;
+            }
+        }
+
+        .review-section-btn:hover {
+            background-color: #ffb619;
+            transform: scalex(1.1);
+        }
+    }
+}
+
+// review-section ends
+
+// footer starts
+
+footer {
+    background-color: $primary2;
+    .footer-width {
+        @include custom-width();
+        text-align: center;
+        color: #fff;
+        padding: 2rem 0;
+
+        .footer-content {
+            @include custom-flex();
+            margin-bottom: 3rem;
+
+            .ftr-box {
+                width: 30%;
+
+                h4 {
+                    color: $primary1;
+                    font-size: 1.3rem;
+                    @include primary-font();
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .ftr-box1 {
+                .ftr1 {
+                    color: #fff;
+                    margin-bottom: 0.3rem;
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        @include main-font();
+                        font-size: 0.6rem;
+                        margin-left: 0.2rem;
+                    }
+                }
+            }
+
+            .ftr-box2 {
+                p {
+                    font-size: 0.6rem;
+                    line-height: 1.2rem;
+                    margin-bottom: 0.8rem;
+                }
+
+                .ftr-icon {
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 0.8rem;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+
+            .ftr-box3 {
+                p {
+                    font-size: 0.6rem;
+                }
+            }
+        }
+
+        h4 {
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        h5 {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+// footer ends
+
+// media query starts
+
+@import "media";

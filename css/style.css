@@ -1,0 +1,1344 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 25px;
+}
+
+.custom-container {
+  color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  background-image: url("../img/bg1.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: center;
+}
+
+.custom-container .inner {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.custom-container .inner nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-top: 0.5rem;
+}
+
+.custom-container .inner nav .nav-left a {
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.custom-container .inner nav .nav-right {
+  display: block;
+}
+
+.custom-container .inner nav .nav-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-top: 0.5rem;
+}
+
+.custom-container .inner nav .nav-right ul li {
+  padding-left: 1.2rem;
+}
+
+.custom-container .inner nav .nav-right ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.05rem;
+}
+
+.custom-container .inner nav .nav-right ul li a:hover {
+  color: #ffbe33;
+  -webkit-box-shadow: 1px 2px 3px #ffbe33;
+          box-shadow: 1px 2px 3px #ffbe33;
+  padding: 0rem;
+  padding-bottom: 0.05rem;
+  border-radius: 30%;
+}
+
+.custom-container .inner nav .menu-bar {
+  margin-top: 0.4rem;
+  display: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+
+.custom-container .inner .carousel {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.custom-container .inner .carousel .item {
+  text-align: center;
+  padding: 0 5rem;
+}
+
+.custom-container .inner .carousel .item h3 {
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 1rem;
+}
+
+.custom-container .inner .carousel .item p {
+  font-size: 0.8rem;
+  line-height: 1.7rem;
+  word-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.custom-container .inner .carousel .item .custom-button {
+  background-color: #ffbe33;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 30px;
+}
+
+.custom-container .inner .carousel .item .custom-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+}
+
+.custom-container .inner .carousel .item .custom-button:hover {
+  -webkit-box-shadow: 0px 0px 31px 0px #af7800;
+          box-shadow: 0px 0px 31px 0px #af7800;
+  background-color: #ffb619;
+}
+
+.custom-container .inner .scrollup {
+  font-size: 1.5rem;
+  color: #ffbe33;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  padding: 10px;
+  z-index: 100;
+  cursor: pointer;
+  display: none;
+}
+
+.second-section {
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 3rem auto;
+}
+
+.second-section .s-left {
+  width: 48%;
+  background-color: #222831;
+  color: #ffffff;
+  padding-bottom: 0.6rem;
+}
+
+.second-section .s-right {
+  width: 48%;
+  background-color: #222831;
+  color: #ffffff;
+  padding-bottom: 0.6rem;
+}
+
+.second-section .custom-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-section .custom-row .custom-imgbox {
+  overflow: hidden;
+  width: 30%;
+  padding: 0;
+  margin: 1rem 0 0.5rem 1.5rem;
+  border-radius: 100%;
+  border: 4px solid #ffbe33;
+}
+
+.second-section .custom-row .custom-imgbox img {
+  width: 100%;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+
+.second-section .custom-row .custom-imgbox img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.second-section .custom-row .custom-textbox {
+  width: 60%;
+  padding-left: 1rem;
+  padding-top: 0.8rem;
+}
+
+.second-section .custom-row .custom-textbox h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.7rem;
+}
+
+.second-section .custom-row .custom-textbox p {
+  font-family: "Dancing Script", cursive;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+.second-section .custom-row .custom-textbox p span {
+  font-family: "Open Sans", sans-serif;
+  margin-right: 0.2rem;
+  font-size: 1rem;
+}
+
+.second-section .custom-row .custom-textbox .custom-button {
+  background-color: #ffbe33;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 30px;
+  padding: 8px 25px;
+  margin-top: 1rem;
+}
+
+.second-section .custom-row .custom-textbox .custom-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.second-section .custom-row .custom-textbox .custom-button:hover {
+  background-color: #ffb619;
+}
+
+.third-section {
+  width: 95%;
+  margin: 0 auto;
+  margin: 3rem auto;
+}
+
+.third-section h4 {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.third-section .main-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+
+.third-section .main-box .box {
+  width: 30%;
+  background-color: #222831;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.third-section .main-box .box .t-img {
+  width: 100%;
+  height: 32vh;
+  background-color: rgba(211, 211, 211, 0.952);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom-left-radius: 60px;
+}
+
+.third-section .main-box .box .t-img img {
+  width: 40%;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+
+.third-section .main-box .box .t-img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.third-section .main-box .box h5 {
+  font-size: 0.8rem;
+  margin-left: 1.5rem;
+  color: #ffbe33;
+  margin-top: 0.7rem;
+}
+
+.third-section .main-box .box p {
+  font-size: 0.56rem;
+  margin: 0.8rem;
+  margin-left: 1.5rem;
+  line-height: 1.1rem;
+}
+
+.third-section .main-box .box .tl-last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0.6rem 1rem 1.5rem;
+}
+
+.third-section .main-box .box .tl-last span {
+  font-size: 0.8rem;
+}
+
+.third-section .main-box .box .tl-last button {
+  border-radius: 100%;
+  background-color: #ffbe33;
+  padding: 0.45rem 0.5rem;
+}
+
+.third-section .main-box .box .tl-last button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.third-section .main-box .box .tl-last .custom-button:hover {
+  background-color: #ffb619;
+}
+
+.third-section .custom-thirdbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-section .custom-thirdbtn .third-section-btn {
+  background-color: #ffbe33;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 30px;
+}
+
+.third-section .custom-thirdbtn .third-section-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.third-section .custom-thirdbtn .third-section-btn:hover {
+  background-color: #ffb619;
+}
+
+.fourth-section {
+  background-color: #222831;
+}
+
+.fourth-section .fr-section {
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fourth-section .fr-section .fs-left {
+  width: 30%;
+  margin-top: 2.5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fourth-section .fr-section .fs-left img {
+  width: 80%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.fourth-section .fr-section .fs-right {
+  width: 60%;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.fourth-section .fr-section .fs-right h5 {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 1rem;
+}
+
+.fourth-section .fr-section .fs-right p {
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+
+.fourth-section .fr-section .fs-right .fourth-section-btn {
+  background-color: #ffbe33;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 30px;
+  margin-top: 2rem;
+}
+
+.fourth-section .fr-section .fs-right .fourth-section-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.fourth-section .fr-section .fs-right .fourth-section-btn .fourth-section-btn:hover {
+  background-color: #ffb619;
+}
+
+.booking-section {
+  width: 95%;
+  margin: 0 auto;
+  margin: 2rem auto;
+}
+
+.booking-section h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.booking-section .booking-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.booking-section .booking-content .b-left {
+  width: 48%;
+}
+
+.booking-section .booking-content .b-left input {
+  width: 90%;
+  height: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 0.9rem;
+  border: 1px solid grey;
+  padding: 0 0.5rem;
+}
+
+.booking-section .booking-content .b-left input[type="submit"] {
+  background-color: #ffbe33;
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  width: 25%;
+  height: 2.1rem;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.booking-section .booking-content .b-left input[type="submit"]:active {
+  background-color: #da9500;
+}
+
+.booking-section .booking-content .b-left span {
+  color: red;
+  float: right;
+  margin-right: 0.5rem;
+}
+
+.booking-section .booking-content .b-right {
+  width: 48%;
+}
+
+.booking-section .booking-content .b-right iframe {
+  width: 100%;
+  height: 75%;
+  border-radius: 20px;
+}
+
+.review-section {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.review-section h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.review-section .rs-content .rs-box {
+  width: 100%;
+}
+
+.review-section .rs-content .rs-box .rs-imgbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.review-section .rs-content .rs-box .rs-imgbox img {
+  width: 70%;
+  border-radius: 100%;
+  border: 5px solid #ffbe33;
+}
+
+.review-section .rs-content .rs-box .rs-box-content {
+  margin-top: 0.8rem;
+}
+
+.review-section .rs-content .rs-box .rs-box-content p {
+  font-size: 0.6rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+  line-height: 1.1rem;
+}
+
+.review-section .rs-content .rs-box .rs-box-content h5 {
+  font-weight: 800;
+}
+
+.review-section .rs-content .rs-box .rs-box-content h6 {
+  font-size: 0.5rem;
+}
+
+.review-section .rs-content .owl-nav {
+  font-size: 1.5rem;
+}
+
+.review-section .rs-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.review-section .rs-button .review-section-btn {
+  background-color: #ffbe33;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 30px;
+  margin-top: 2rem;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.review-section .rs-button .review-section-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.review-section .rs-button .review-section-btn i {
+  color: #fff;
+  font-size: 0.8rem;
+  padding-left: 0.2rem;
+  display: none;
+}
+
+.review-section .rs-button .review-section-btn:hover {
+  background-color: #ffb619;
+  -webkit-transform: scalex(1.1);
+          transform: scalex(1.1);
+}
+
+footer {
+  background-color: #222831;
+}
+
+footer .footer-width {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+footer .footer-width .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+footer .footer-width .footer-content .ftr-box {
+  width: 30%;
+}
+
+footer .footer-width .footer-content .ftr-box h4 {
+  color: #ffbe33;
+  font-size: 1.3rem;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 1rem;
+}
+
+footer .footer-width .footer-content .ftr-box1 .ftr1 {
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+footer .footer-width .footer-content .ftr-box1 .ftr1 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6rem;
+  margin-left: 0.2rem;
+}
+
+footer .footer-width .footer-content .ftr-box2 p {
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+footer .footer-width .footer-content .ftr-box2 .ftr-icon a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+
+footer .footer-width .footer-content .ftr-box3 p {
+  font-size: 0.6rem;
+}
+
+footer .footer-width h4 {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+footer .footer-width h5 {
+  font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .fourth-section {
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .custom-container .inner .carousel .item {
+    padding: 0 2rem;
+  }
+  .third-section .main-box .box {
+    width: 31%;
+  }
+  .third-section .main-box .box p {
+    margin-left: 1rem;
+  }
+  .third-section .main-box .box h5 {
+    margin-left: 1rem;
+  }
+  .third-section .main-box .box .tl-last button a {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .fourth-section .fr-section .fs-right {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .custom-container .inner .carousel .item {
+    padding: 0;
+  }
+  .second-section {
+    margin: 2.5rem auto;
+  }
+  .second-section .s-left {
+    width: 49%;
+  }
+  .second-section .s-right {
+    width: 49%;
+  }
+  .third-section .main-box .box {
+    width: 32%;
+    margin-bottom: 1rem;
+  }
+  .third-section .main-box .box p {
+    margin-bottom: 0.3rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin-top: 0.5rem;
+  }
+  .third-section .main-box .box .tl-last button {
+    padding: 0.3rem 0.4rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .second-section .custom-row .custom-textbox {
+    padding-top: 0.3rem;
+  }
+  .second-section .custom-row .custom-textbox p {
+    margin-top: 0.2rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button {
+    margin-top: 0.5rem;
+  }
+  .booking-section .booking-content .b-left input[type="submit"] {
+    width: 27%;
+    height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .fourth-section .fr-section .fs-right {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .custom-container .inner .carousel .item {
+    padding: 0;
+  }
+  .second-section {
+    margin: 2rem auto;
+  }
+  .second-section .custom-row .custom-imgbox {
+    width: 30%;
+  }
+  .second-section .custom-row .custom-textbox h4 {
+    font-size: 1.5rem;
+  }
+  .third-section .main-box .box h5 {
+    margin: 0.8rem 0.8rem;
+  }
+  .third-section .main-box .box p {
+    margin: 0.5rem 0.8rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 0.6rem 0.8rem;
+  }
+  .fourth-section .fr-section .fs-right {
+    width: 70%;
+  }
+  .booking-section .booking-content .b-left input[type="submit"] {
+    font-size: 0.7rem;
+  }
+  footer .footer-width h4 {
+    font-size: 0.7rem;
+  }
+  footer .footer-width h5 {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .third-section .main-box .box h5 {
+    margin: 0.8rem 0.5rem;
+  }
+  .third-section .main-box .box p {
+    margin: 0.5rem 0.5rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 0.6rem 0.5rem;
+  }
+  .booking-section .booking-content .b-left input[type="submit"] {
+    width: 30%;
+    height: 1.9rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .custom-container .inner .carousel .item p {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+  .second-section .custom-row .custom-textbox h4 {
+    font-size: 1.3rem;
+  }
+  .second-section .custom-row .custom-textbox p {
+    font-size: 0.7rem;
+  }
+  .third-section .main-box .box {
+    width: 48%;
+  }
+  .third-section .main-box .box h5 {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+  }
+  .third-section .main-box .box p {
+    font-size: 0.56rem;
+    margin: 0.8rem;
+    margin-left: 1rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 0 0.6rem 1rem 1rem;
+  }
+  .third-section .main-box .box .tl-last span {
+    font-size: 0.8rem;
+  }
+  .third-section .main-box .box .tl-last button {
+    padding: 0.45rem 0.5rem;
+  }
+  .third-section .main-box .box .tl-last button a {
+    font-size: 0.8rem;
+  }
+  .fourth-section .fr-section .fs-right p {
+    line-height: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .custom-container .inner .carousel .item h3 {
+    font-size: 2.7rem;
+  }
+  .second-section .custom-row {
+    padding-bottom: 0.2rem;
+  }
+  .fourth-section .fr-section .fs-left {
+    width: 40%;
+    margin-top: 1rem;
+  }
+  .fourth-section .fr-section .fs-right {
+    width: 60%;
+    margin-top: 2rem;
+  }
+  .fourth-section .fr-section .fs-right p {
+    text-align: justify;
+    font-size: 0.65rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .custom-container .inner {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .custom-container .inner nav .nav-right {
+    display: none;
+    position: absolute;
+    top: 3rem;
+    left: -2rem;
+    z-index: 10;
+  }
+  .custom-container .inner nav .menu-bar {
+    display: block;
+  }
+  .second-section .custom-row .custom-textbox h4 {
+    font-size: 1.1rem;
+  }
+  .second-section .custom-row .custom-textbox p {
+    font-size: 0.6rem;
+  }
+  .second-section .custom-row .custom-textbox p span {
+    font-size: 0.8rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button {
+    font-size: 0.5rem;
+    padding: 8px 20px;
+  }
+  .booking-section .booking-content .b-left input[type="submit"] {
+    width: 35%;
+    height: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .second-section .row {
+    margin-right: 0;
+  }
+  .second-section .s-left {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .second-section .s-right {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .second-section .custom-row .custom-textbox {
+    padding-top: 1rem;
+  }
+  .second-section .custom-row .custom-textbox h4 {
+    font-size: 2rem;
+  }
+  .second-section .custom-row .custom-textbox p {
+    font-size: 1rem;
+  }
+  .second-section .custom-row .custom-textbox p span {
+    font-size: 1.2rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button {
+    padding: 8px 25px;
+    margin-top: 1rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button a {
+    font-size: 0.7rem;
+  }
+  .third-section .main-box .box {
+    width: 49%;
+  }
+  .third-section .main-box .box h5 {
+    margin: 0.8rem 0.5rem;
+  }
+  .third-section .main-box .box p {
+    margin: 0.5rem 0.5rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 0.6rem 0.5rem;
+  }
+  .third-section .main-box .box .tl-last button {
+    padding: 0.4rem 0.4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .second-section .custom-row .custom-textbox h4 {
+    font-size: 1.8rem;
+  }
+  .second-section .custom-row .custom-textbox p {
+    font-size: 0.9rem;
+  }
+  .second-section .custom-row .custom-textbox p span {
+    font-size: 1.1rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button a {
+    font-size: 0.6rem;
+  }
+  .fourth-section .fr-section .fs-left img {
+    padding: 2rem 0;
+  }
+  .fourth-section .fr-section .fs-right .fourth-section-btn {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .fourth-section .fr-section .fs-left img {
+    padding: 3rem 0;
+  }
+  .booking-section .booking-content .b-left input[type="submit"] {
+    width: 42%;
+  }
+  footer .footer-width .footer-content .ftr-box {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-container .inner nav .nav-right {
+    position: absolute;
+    top: 2.5rem;
+  }
+  .custom-container .inner nav .nav-right ul li a {
+    font-size: 0.6rem;
+  }
+  .custom-container .inner .carousel .item h3 {
+    font-size: 2.5rem;
+  }
+  .second-section .custom-row .custom-textbox {
+    padding-top: 0.8rem;
+  }
+  .second-section .custom-row .custom-textbox h4 {
+    font-size: 1.6rem;
+  }
+  .second-section .custom-row .custom-textbox p {
+    font-size: 0.7rem;
+  }
+  .second-section .custom-row .custom-textbox p span {
+    font-size: 0.9rem;
+  }
+  .third-section .main-box .box .t-img img {
+    width: 45%;
+  }
+  .third-section .main-box .box h5 {
+    margin: 0 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .third-section .main-box .box p {
+    margin: 0.2rem 0.5rem;
+    line-height: 1rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 0.6rem 0.5rem;
+  }
+  .third-section .main-box .box .tl-last button {
+    padding: 0.2rem 0.3rem;
+  }
+  .third-section .main-box .box .tl-last button a {
+    font-size: 0.5rem;
+  }
+  .fourth-section .fr-section .fs-right {
+    margin-top: 1rem;
+  }
+  .fourth-section .fr-section .fs-right p {
+    font-size: 0.6rem;
+  }
+  .fourth-section .fr-section .fs-right .fourth-section-btn {
+    padding: 8px 20px;
+  }
+  .booking-section .booking-content .b-left input[type="submit"] {
+    width: 48%;
+  }
+  footer .footer-width .footer-content .ftr-box {
+    width: 100%;
+  }
+  footer .footer-width .footer-content .ftr-box h4 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .custom-container .inner .carousel .item h3 {
+    font-size: 2.4rem;
+  }
+  .second-section .custom-row .custom-textbox h4 {
+    font-size: 1.4rem;
+  }
+  .second-section .custom-row .custom-textbox p {
+    font-size: 0.6rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button {
+    margin-top: 0.7rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button a {
+    font-size: 0.5rem;
+  }
+  .third-section .main-box .box .t-img img {
+    width: 50%;
+  }
+  .fourth-section .fr-section .fs-right p {
+    line-height: 1.5rem;
+  }
+  .review-section h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .custom-container .inner nav .nav-right {
+    position: absolute;
+    top: 2.2rem;
+  }
+  .custom-container .inner .carousel .item h3 {
+    font-size: 2.25rem;
+  }
+  .third-section .main-box .box {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .third-section .main-box .box .t-img {
+    padding: 5rem 0;
+  }
+  .third-section .main-box .box .t-img img {
+    width: 40%;
+  }
+  .third-section .main-box .box h5 {
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 0.7rem;
+  }
+  .third-section .main-box .box p {
+    font-size: 0.65rem;
+    margin: 0.8rem;
+    margin-left: 1.5rem;
+    line-height: 1.2rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 0 0.6rem 1rem 1.5rem;
+  }
+  .third-section .main-box .box .tl-last span {
+    font-size: 0.8rem;
+  }
+  .third-section .main-box .box .tl-last button {
+    border-radius: 100%;
+    background-color: #ffbe33;
+    padding: 0.45rem 0.5rem;
+  }
+  .third-section .main-box .box .tl-last button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+  }
+  .fourth-section {
+    height: auto;
+  }
+  .fourth-section .fr-section .fs-left {
+    width: 100%;
+  }
+  .fourth-section .fr-section .fs-left img {
+    padding: 0;
+    width: 50%;
+  }
+  .fourth-section .fr-section .fs-right {
+    width: 100%;
+  }
+  .fourth-section .fr-section .fs-right p {
+    font-size: 0.6rem;
+  }
+  .booking-section .booking-content .b-left {
+    width: 100%;
+  }
+  .booking-section .booking-content .b-left input {
+    width: 90%;
+  }
+  .booking-section .booking-content .b-right {
+    width: 100%;
+  }
+  .booking-section .booking-content .b-right iframe {
+    height: 12rem;
+  }
+  .review-section h3 {
+    font-size: 1.7rem;
+  }
+  .review-section .rs-content .rs-box .rs-box-content p {
+    font-size: 0.7rem;
+  }
+  .review-section .rs-content .rs-box .rs-box-content h5 {
+    font-size: 0.8rem;
+  }
+  .review-section .rs-content .rs-box .rs-box-content h6 {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .custom-container .inner nav .nav-right ul li {
+    padding-left: 1rem;
+  }
+  .custom-container .inner nav .nav-right ul li a {
+    font-size: 0.55rem;
+  }
+  .custom-container .inner .carousel .item h3 {
+    font-size: 2rem;
+  }
+  .custom-container .inner .carousel .item p {
+    margin-bottom: 1rem;
+  }
+  .custom-container .inner .carousel .item .custom-button {
+    padding: 8px 25px;
+  }
+  .second-section .custom-row .custom-textbox h4 {
+    font-size: 1.3rem;
+  }
+  .second-section .custom-row .custom-textbox p span {
+    font-size: 0.8rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button {
+    padding: 6px 20px;
+    margin-top: 0.5rem;
+  }
+  .third-section .main-box .box {
+    padding-bottom: 0.8rem;
+  }
+  .third-section .main-box .box .t-img img {
+    width: 43%;
+  }
+  .third-section .main-box .box h5 {
+    margin: 1rem;
+  }
+  .third-section .main-box .box p {
+    margin: 1rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 1rem;
+  }
+  .review-section h3 {
+    font-size: 1.5rem;
+  }
+  footer .footer-width h4 {
+    font-size: 0.6rem;
+  }
+  footer .footer-width h5 {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .custom-container .inner nav .nav-right ul li {
+    padding-left: 0.7rem;
+  }
+  .custom-container .inner .carousel .item h3 {
+    font-size: 1.7rem;
+  }
+  .custom-container .inner .carousel .item p {
+    font-size: 0.6rem;
+  }
+  .custom-container .inner .carousel .item .custom-button {
+    padding: 5px 10px;
+  }
+  .second-section .custom-row {
+    display: block;
+  }
+  .second-section .custom-row .custom-imgbox {
+    margin: 1rem auto;
+  }
+  .second-section .custom-row .custom-textbox {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  .second-section .custom-row .custom-textbox h4 {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.7rem;
+  }
+  .second-section .custom-row .custom-textbox p {
+    font-family: "Dancing Script", cursive;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+  .second-section .custom-row .custom-textbox p span {
+    font-family: "Open Sans", sans-serif;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button {
+    background-color: #ffbe33;
+    border-radius: 42px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 12px 30px;
+    padding: 8px 25px;
+    margin-top: 1rem;
+  }
+  .second-section .custom-row .custom-textbox .custom-button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .third-section .main-box .box {
+    padding-bottom: 0.8rem;
+  }
+  .third-section .main-box .box h5 {
+    margin: 0.6rem;
+  }
+  .third-section .main-box .box p {
+    margin: 0.6rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 0.6rem;
+  }
+  .fourth-section .fr-section .fs-left img {
+    width: 60%;
+  }
+  .review-section h3 {
+    font-size: 1.35rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .custom-container .inner nav .nav-right ul li {
+    padding-left: 0.5rem;
+  }
+  .custom-container .inner .carousel .item h3 {
+    font-size: 1.6rem;
+  }
+  .third-section .main-box .box {
+    padding-bottom: 0.6rem;
+  }
+  .third-section .main-box .box h5 {
+    margin: 0.4rem;
+    margin-top: 0.6rem;
+  }
+  .third-section .main-box .box p {
+    margin: 0.4rem;
+  }
+  .third-section .main-box .box .tl-last {
+    margin: 0.4rem;
+  }
+  .third-section .main-box .box .tl-last button {
+    padding: 0.4rem 0.5rem;
+  }
+  .third-section .main-box .box .tl-last button a {
+    font-size: 0.7rem;
+  }
+  .review-section h3 {
+    font-size: 1.25rem;
+  }
+  footer .footer-width h4 {
+    font-size: 0.55rem;
+  }
+  footer .footer-width h5 {
+    font-size: 0.45rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

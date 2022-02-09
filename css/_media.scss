@@ -1,0 +1,1139 @@
+// media query here
+
+@media only screen and (max-width: 1400px) {
+    .fourth-section {
+        padding-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .custom-container {
+        .inner {
+            .carousel {
+                .item {
+                    padding: 0 2rem;
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                width: 31%;
+                p {
+                    margin-left: 1rem;
+                }
+
+                h5 {
+                    margin-left: 1rem;
+                }
+
+                .tl-last {
+                    button {
+                        a {
+                            font-size: 0.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .fourth-section {
+        .fr-section {
+            .fs-right {
+                margin-top: 3rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .custom-container {
+        .inner {
+            .carousel {
+                .item {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .second-section {
+        margin: 2.5rem auto;
+
+        .s-left {
+            width: 49%;
+        }
+        .s-right {
+            width: 49%;
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                width: 32%;
+                margin-bottom: 1rem;
+
+                p {
+                    margin-bottom: 0.3rem;
+                }
+
+                .tl-last {
+                    margin-top: 0.5rem;
+
+                    button {
+                        padding: 0.3rem 0.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .second-section {
+        .custom-row {
+            .custom-textbox {
+                padding-top: 0.3rem;
+
+                p {
+                    margin-top: 0.2rem;
+                }
+
+                .custom-button {
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .booking-section {
+        .booking-content {
+            .b-left {
+                input[type="submit"] {
+                    width: 27%;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .fourth-section {
+        .fr-section {
+            .fs-right {
+                width: 65%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .custom-container {
+        .inner {
+            .carousel {
+                .item {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .second-section {
+        margin: 2rem auto;
+
+        .custom-row {
+            .custom-imgbox {
+                width: 30%;
+            }
+            .custom-textbox {
+                h4 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                h5 {
+                    margin: 0.8rem 0.8rem;
+                }
+
+                p {
+                    margin: 0.5rem 0.8rem;
+                }
+                .tl-last {
+                    margin: 0.6rem 0.8rem;
+                }
+            }
+        }
+    }
+
+    .fourth-section {
+        .fr-section {
+            .fs-right {
+                width: 70%;
+            }
+        }
+    }
+
+    .booking-section {
+        .booking-content {
+            .b-left {
+                input[type="submit"] {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer-width {
+            h4 {
+                font-size: 0.7rem;
+            }
+
+            h5 {
+                font-size: 0.6rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .third-section {
+        .main-box {
+            .box {
+                h5 {
+                    margin: 0.8rem 0.5rem;
+                }
+
+                p {
+                    margin: 0.5rem 0.5rem;
+                }
+                .tl-last {
+                    margin: 0.6rem 0.5rem;
+                }
+            }
+        }
+    }
+
+    .booking-section {
+        .booking-content {
+            .b-left {
+                input[type="submit"] {
+                    width: 30%;
+                    height: 1.9rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .custom-container {
+        .inner {
+            .carousel {
+                .item {
+                    p {
+                        font-size: 0.7rem;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .second-section {
+        .custom-row {
+            .custom-textbox {
+                h4 {
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                width: 48%;
+                h5 {
+                    font-size: 0.8rem;
+                    margin-left: 1rem;
+                    margin-top: 0.7rem;
+                }
+
+                p {
+                    font-size: 0.56rem;
+                    margin: 0.8rem;
+                    margin-left: 1rem;
+                }
+
+                .tl-last {
+                    margin: 0 0.6rem 1rem 1rem;
+
+                    span {
+                        font-size: 0.8rem;
+                    }
+
+                    button {
+                        padding: 0.45rem 0.5rem;
+
+                        a {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .fourth-section {
+        .fr-section {
+            .fs-right {
+                p {
+                    line-height: 1.7rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .custom-container {
+        .inner {
+            .carousel {
+                .item {
+                    h3 {
+                        font-size: 2.7rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .second-section {
+        .custom-row {
+            padding-bottom: 0.2rem;
+        }
+    }
+
+    .fourth-section {
+        .fr-section {
+            .fs-left {
+                width: 40%;
+                margin-top: 1rem;
+            }
+
+            .fs-right {
+                width: 60%;
+                margin-top: 2rem;
+
+                p {
+                    text-align: justify;
+                    font-size: 0.65rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .custom-container {
+        .inner {
+            width: 98%;
+            margin: 0 auto;
+
+            nav {
+                .nav-right {
+                    display: none;
+                    position: absolute;
+                    top: 3rem;
+                    left: -2rem;
+                    z-index: 10;
+                }
+                .menu-bar {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .second-section {
+        .custom-row {
+            .custom-textbox {
+                h4 {
+                    font-size: 1.1rem;
+                }
+
+                p {
+                    font-size: 0.6rem;
+
+                    span {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                .custom-button {
+                    font-size: 0.5rem;
+                    padding: 8px 20px;
+                }
+            }
+        }
+    }
+
+    .booking-section {
+        .booking-content {
+            .b-left {
+                input[type="submit"] {
+                    width: 35%;
+                    height: 1.8rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .second-section {
+        .row {
+            margin-right: 0;
+        }
+
+        .s-left {
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+        .s-right {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .custom-row {
+            .custom-textbox {
+                padding-top: 1rem;
+
+                h4 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1rem;
+
+                    span {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .custom-button {
+                    padding: 8px 25px;
+                    margin-top: 1rem;
+
+                    a {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                width: 49%;
+
+                h5 {
+                    margin: 0.8rem 0.5rem;
+                }
+
+                p {
+                    margin: 0.5rem 0.5rem;
+                }
+                .tl-last {
+                    margin: 0.6rem 0.5rem;
+
+                    button {
+                        padding: 0.4rem 0.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .second-section {
+        .custom-row {
+            .custom-textbox {
+                h4 {
+                    font-size: 1.8rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+
+                    span {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                .custom-button {
+                    a {
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .fourth-section {
+        .fr-section {
+            .fs-left {
+                img {
+                    padding: 2rem 0;
+                }
+            }
+            .fs-right {
+                .fourth-section-btn {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .fourth-section {
+        .fr-section {
+            .fs-left {
+                img {
+                    padding: 3rem 0;
+                }
+            }
+        }
+    }
+
+    .booking-section {
+        .booking-content {
+            .b-left {
+                input[type="submit"] {
+                    width: 42%;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer-width {
+            .footer-content {
+                .ftr-box {
+                    width: 33%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-container {
+        .inner {
+            nav {
+                .nav-right {
+                    position: absolute;
+                    top: 2.5rem;
+                    ul {
+                        li {
+                            a {
+                                font-size: 0.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .carousel {
+                .item {
+                    h3 {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .second-section {
+        .custom-row {
+            .custom-textbox {
+                padding-top: 0.8rem;
+
+                h4 {
+                    font-size: 1.6rem;
+                }
+
+                p {
+                    font-size: 0.7rem;
+
+                    span {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                .t-img {
+                    img {
+                        width: 45%;
+                    }
+                }
+
+                h5 {
+                    margin: 0 0.5rem;
+                    margin-top: 0.5rem;
+                }
+
+                p {
+                    margin: 0.2rem 0.5rem;
+                    line-height: 1rem;
+                }
+                .tl-last {
+                    margin: 0.6rem 0.5rem;
+
+                    button {
+                        padding: 0.2rem 0.3rem;
+                        a {
+                            font-size: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .fourth-section {
+        .fr-section {
+            .fs-right {
+                margin-top: 1rem;
+
+                p {
+                    font-size: 0.6rem;
+                }
+
+                .fourth-section-btn {
+                    padding: 8px 20px;
+                }
+            }
+        }
+    }
+
+    .booking-section {
+        .booking-content {
+            .b-left {
+                input[type="submit"] {
+                    width: 48%;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer-width {
+            .footer-content {
+                .ftr-box {
+                    width: 100%;
+
+                    h4 {
+                        margin-top: 1rem;
+                        margin-bottom: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .custom-container {
+        .inner {
+            .carousel {
+                .item {
+                    h3 {
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .second-section {
+        .custom-row {
+            .custom-textbox {
+                h4 {
+                    font-size: 1.4rem;
+                }
+
+                p {
+                    font-size: 0.6rem;
+                }
+                .custom-button {
+                    margin-top: 0.7rem;
+                    a {
+                        font-size: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                .t-img {
+                    img {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    .fourth-section {
+        .fr-section {
+            .fs-right {
+                p {
+                    line-height: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .review-section {
+        h3 {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .custom-container {
+        .inner {
+            nav {
+                .nav-right {
+                    position: absolute;
+                    top: 2.2rem;
+                }
+            }
+            .carousel {
+                .item {
+                    h3 {
+                        font-size: 2.25rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                width: 100%;
+                padding-bottom: 1rem;
+
+                .t-img {
+                    padding: 5rem 0;
+
+                    img {
+                        width: 40%;
+                    }
+                }
+                h5 {
+                    font-size: 1rem;
+                    margin-left: 1.5rem;
+                    margin-top: 0.7rem;
+                }
+
+                p {
+                    font-size: 0.65rem;
+                    margin: 0.8rem;
+                    margin-left: 1.5rem;
+                    line-height: 1.2rem;
+                }
+
+                .tl-last {
+                    margin: 0 0.6rem 1rem 1.5rem;
+
+                    span {
+                        font-size: 0.8rem;
+                    }
+
+                    button {
+                        border-radius: 100%;
+                        background-color: $primary1;
+                        padding: 0.45rem 0.5rem;
+
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .fourth-section {
+        height: auto;
+
+        .fr-section {
+            .fs-left {
+                width: 100%;
+                img {
+                    padding: 0;
+                    width: 50%;
+                }
+            }
+            .fs-right {
+                width: 100%;
+                p {
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+
+    .booking-section {
+        .booking-content {
+            .b-left {
+                width: 100%;
+
+                input {
+                    width: 90%;
+                }
+            }
+            .b-right {
+                width: 100%;
+
+                iframe {
+                    height: 12rem;
+                }
+            }
+        }
+    }
+
+    .review-section {
+        h3 {
+            font-size: 1.7rem;
+        }
+
+        .rs-content {
+            .rs-box {
+                .rs-box-content {
+                    p {
+                        font-size: 0.7rem;
+                    }
+
+                    h5 {
+                        font-size: 0.8rem;
+                    }
+
+                    h6 {
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .custom-container {
+        .inner {
+            nav {
+                .nav-right {
+                    ul {
+                        li {
+                            padding-left: 1rem;
+                            a {
+                                font-size: 0.55rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .carousel {
+                .item {
+                    h3 {
+                        font-size: 2rem;
+                    }
+                    p {
+                        margin-bottom: 1rem;
+                    }
+                    .custom-button {
+                        padding: 8px 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    .second-section {
+        .custom-row {
+            .custom-textbox {
+                h4 {
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    span {
+                        font-size: 0.8rem;
+                    }
+                }
+                .custom-button {
+                    padding: 6px 20px;
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                padding-bottom: 0.8rem;
+                .t-img {
+                    img {
+                        width: 43%;
+                    }
+                }
+
+                h5 {
+                    margin: 1rem;
+                }
+
+                p {
+                    margin: 1rem;
+                }
+                .tl-last {
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+
+    .review-section {
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    footer {
+        .footer-width {
+            h4 {
+                font-size: 0.6rem;
+            }
+
+            h5 {
+                font-size: 0.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .custom-container {
+        .inner {
+            nav {
+                .nav-right {
+                    ul {
+                        li {
+                            padding-left: 0.7rem;
+                        }
+                    }
+                }
+            }
+            .carousel {
+                .item {
+                    h3 {
+                        font-size: 1.7rem;
+                    }
+
+                    p {
+                        font-size: 0.6rem;
+                    }
+
+                    .custom-button {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .second-section {
+        .custom-row {
+            display: block;
+
+            .custom-imgbox {
+                margin: 1rem auto;
+            }
+
+            .custom-textbox {
+                width: 100%;
+                text-align: center;
+                padding-top: 0;
+                padding-bottom: 1rem;
+
+                h4 {
+                    @include primary-font();
+                    font-size: 1.7rem;
+                }
+
+                p {
+                    @include primary-font();
+                    font-size: 0.8rem;
+                    margin-top: 0.4rem;
+
+                    span {
+                        @include main-font();
+                        margin-right: 0.2rem;
+                        font-size: 1rem;
+                    }
+                }
+
+                .custom-button {
+                    @include custom-button();
+                    padding: 8px 25px;
+                    margin-top: 1rem;
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                padding-bottom: 0.8rem;
+
+                h5 {
+                    margin: 0.6rem;
+                }
+
+                p {
+                    margin: 0.6rem;
+                }
+                .tl-last {
+                    margin: 0.6rem;
+                }
+            }
+        }
+    }
+
+    .fourth-section {
+        .fr-section {
+            .fs-left {
+                img {
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    .review-section {
+        h3 {
+            font-size: 1.35rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .custom-container {
+        .inner {
+            nav {
+                .nav-right {
+                    ul {
+                        li {
+                            padding-left: 0.5rem;
+                        }
+                    }
+                }
+            }
+
+            .carousel {
+                .item {
+                    h3 {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .third-section {
+        .main-box {
+            .box {
+                padding-bottom: 0.6rem;
+
+                h5 {
+                    margin: 0.4rem;
+                    margin-top: 0.6rem;
+                }
+
+                p {
+                    margin: 0.4rem;
+                }
+                .tl-last {
+                    margin: 0.4rem;
+
+                    button {
+                        padding: 0.4rem 0.5rem;
+                        a {
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .review-section {
+        h3 {
+            font-size: 1.25rem;
+        }
+    }
+
+    footer {
+        .footer-width {
+            h4 {
+                font-size: 0.55rem;
+            }
+
+            h5 {
+                font-size: 0.45rem;
+            }
+        }
+    }
+}
+
+// media query ends
